@@ -93,8 +93,8 @@
  
  #define CLEAR_LINE     Serial.printf("\r%*c\r", 80, ' ')
  #define MIN_VOLUME     0
- #define MAX_VOLUME     21
- #define DEFAULT_VOLUME 10
+ #define MAX_VOLUME     40
+ #define DEFAULT_VOLUME 15
  
  extern void heartbeat(uint8_t pin, uint8_t nBeats, uint8_t t, uint8_t duty);
  extern bool initWiFi(const char ssid[], const char password[], const char hostname[]);
