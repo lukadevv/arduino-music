@@ -1,0 +1,5 @@
+A testing repo for mic and audio.
+
+Hardware:
+- ESP32 NODECUM 32S
+- MAX98357A (Amp)
